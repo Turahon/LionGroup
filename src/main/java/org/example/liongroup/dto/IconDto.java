@@ -5,9 +5,6 @@ import jakarta.persistence.ManyToMany;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.liongroup.model.Category;
-
-import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -19,5 +16,5 @@ public class IconDto {
     @Column(nullable = false)
     private String svgcode;
     @ManyToMany
-    private List<Category> categoryId;
+    private Long categoryId;
 }

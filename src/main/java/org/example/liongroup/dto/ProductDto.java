@@ -5,9 +5,6 @@ import jakarta.persistence.ManyToMany;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.liongroup.model.Comment;
-
-import java.util.List;
 
 @Data
 @AllArgsConstructor
